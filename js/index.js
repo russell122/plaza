@@ -257,33 +257,35 @@ if (productCards.length) {
     buttonWrapper.addEventListener('click', function (e) {
       if (e.target.classList.contains('button') && !e.target.classList.contains('button_to-basket-null')) {
         var source = e.target.querySelector('object').getAttribute('data');
+        var sp = e.target.querySelector('span');
 
         if (e.target.classList.contains('added')) {
           e.target.classList.remove('added');
           e.target.querySelector('object').setAttribute('data', source.replace('_added', ''));
+          sp.innerHTML = 'В корзину';
         } else {
           e.target.classList.add('added');
           e.target.querySelector('object').setAttribute('data', source.replace('.svg', '_added.svg'));
+          sp.innerHTML = 'В корзине';
           initTooltip(buttonWrapper);
         }
       }
     });
   });
-}
+} // if (productCards.length) {
+//     productCards.forEach((item, i) => {
+//         item.addEventListener('click', (e) => {
+//             if (e.target.classList.contains('button_to-basket') && !e.target.classList.contains('button_to-basket-null')) {
+//                 if (e.target.classList.contains('added')) {
+//                     buttonToBasket[i].innerHTML = 'В корзине'
+//                 } else {
+//                     buttonToBasket[i].innerHTML = 'В корзину'
+//                 }
+//             }
+//         })
+//     })
+// }
 
-if (productCards.length) {
-  productCards.forEach(function (item, i) {
-    item.addEventListener('click', function (e) {
-      if (e.target.classList.contains('button_to-basket') && !e.target.classList.contains('button_to-basket-null')) {
-        if (e.target.classList.contains('added')) {
-          buttonToBasket[i].innerHTML = 'В корзине';
-        } else {
-          buttonToBasket[i].innerHTML = 'В корзину';
-        }
-      }
-    });
-  });
-}
 
 function initTooltip(place) {
   var tooltip = document.createElement('div');

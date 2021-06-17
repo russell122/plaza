@@ -1240,6 +1240,10 @@ object {
   transition: all .125s ease-in;
 }
 
+.button .s {
+  color: #fff !important;
+}
+
 .button_transparent {
   background: transparent;
 }
