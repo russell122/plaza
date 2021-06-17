@@ -1,0 +1,934 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/contacts.css">
+    <title>Контакты</title>
+</head>
+
+<body>
+    <div class="coocie">
+	<div class="container">
+		<div class="coocie__wrap">
+			<p>Сайт Aqua Plaza использует cookie, чтобы сделать пользование сайтом проще. Узнайте больше про
+				использование cookie.</p>
+			<a href="#" class="button">Ok</a>
+		</div>
+	</div>
+</div>
+    <header class='header_default'>
+    <div class="flex flex_nowrap items_center justify_between header-first__wrapper">
+        <div class="container">
+            <div class="flex items_center justify_between">
+                <ul class="flex items_center header-first__left-nav">
+                    <li class="header-first__left-nav-item">
+                        <a href="#" class="header-first__left-nav-link">О компании</a>
+                    </li>
+                    <li class="header-first__left-nav-item">
+                        <a href="#" class="header-first__left-nav-link">Магазины</a>
+                    </li>
+                    <li class="header-first__left-nav-item">
+                        <a href="#" class="header-first__left-nav-link">Доставка</a>
+                    </li>
+                    <li class="header-first__left-nav-item">
+                        <a href="#" class="header-first__left-nav-link">Покупателям</a>
+                    </li>
+                    <li class="header-first__left-nav-item">
+                        <a href="#" class="header-first__left-nav-link">Контакты</a>
+                    </li>
+                </ul>
+                <div class="flex items_center header-first__right-nav">
+                <span class="plain-text plain-text_small text_secondary header-first__right-nav-title">
+                <span class="text_secondary header-first__right-nav-title_mobile-hidden" style="margin: 0 8px 0 0">
+                    Время работы:
+                </span>
+                пн-сб 10:00 - 19:00</span>
+                    <a href="tel: 84951200733" class="link header-first__right-nav-link">
+                        <object data="img/svg/phone_black.svg" type="image/svg+xml"></object>
+                        +74951200733
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container container_header">
+        <div class="flex flex_nowrap justify_between items_center header-second__wrapper">
+            <div class="flex items_center header-second__left-wrapper">
+                <button class="header-second__menu-button">
+                    <object data="img/svg/menu.svg" type="image/svg+xml"></object>
+                </button>
+                <a href="#" class="header-second__logo-link">
+                    <object class="header-second__logo-image" data="img/svg/logo.svg" type="image/svg+xml"></object>
+                </a>
+            </div>
+            <div class="flex items_center header-second__right-wrapper">
+                <form class="hidden_mobile header-second__search-form">
+                    <label class="flex flex_nowrap search-form__label">
+                        <input type="text" placeholder="Поиск" class="input input_search">
+                        <button class="search-button">
+                            <object data="img/svg/search.svg" type="image/svg+xml"></object>
+                        </button>
+                    </label>
+                </form>
+                <button class="button header-second__right-nav-button hidden_desktop">
+                    <object data="img/svg/search.svg" type="image/svg+xml"></object>
+                </button>
+                <button class="button hidden_mobile header-second__right-nav-button">
+                    <object data="img/svg/compare.svg" type="image/svg+xml"></object>
+                    <span class="plain-text header-second__right-nav-button-title">Сравнение</span>
+                </button>
+                <button class="button hidden_mobile header-second__right-nav-button">
+                    <object data="img/svg/favorite.svg" type="image/svg+xml"></object>
+                    <span class="plain-text header-second__right-nav-button-title">Избранное</span>
+                </button>
+                <button class="button header-second__right-nav-button">
+                    <object data="img/svg/user.svg" type="image/svg+xml"></object>
+                    <span class="plain-text header-second__right-nav-button-title">Войти</span>
+                </button>
+                <button class="button header-second__right-nav-button hidden_desktop">
+                    <span class="header-second__right-nav-button-label">12</span>
+                    <object data="img/svg/cart_blue.svg" type="image/svg+xml"></object>
+                </button>
+            </div>
+            <ul class="mobile-menu__list">
+                <li class="mobile-menu__list-item">
+                    <a href="#" class="mobile-menu__list-link">О компании</a>
+                </li>
+                <li class="mobile-menu__list-item">
+                    <a href="#" class="mobile-menu__list-link">Магазины</a>
+                </li>
+                <li class="mobile-menu__list-item">
+                    <a href="#" class="mobile-menu__list-link">Доставка</a>
+                </li>
+                <li class="mobile-menu__list-item">
+                    <a href="#" class="mobile-menu__list-link">Покупателям</a>
+                </li>
+                <li class="mobile-menu__list-item">
+                    <a href="#" class="mobile-menu__list-link">Контакты</a>
+                </li>
+                <li class="mobile-menu__list-item">
+                    <a href="#" class="mobile-menu__list-link">
+                        <object class="mobile-menu__list-link-icon" data="img/svg/compare.svg"
+                                type="image/svg+xml"></object>
+                        Сравнение (6)</a>
+                </li>
+                <li class="mobile-menu__list-item">
+                    <a href="#" class="mobile-menu__list-link">
+                        <object class="mobile-menu__list-link-icon" data="img/svg/favorite.svg"
+                                type="image/svg+xml"></object>
+                        Избранное (6)</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="container container_header container_header-third">
+        <div class="flex header-third__wrapper">
+            <button class="button header-third__catalog-trigger-button">
+                <span class="trigger__burger">
+                    <object class="burger-line" data="img/svg/burger-line.svg" type="image/svg+xml"></object>
+                    <object class="burger-line" data="img/svg/burger-line.svg" type="image/svg+xml"></object>
+                    <object class="burger-line" data="img/svg/burger-line.svg" type="image/svg+xml"></object>
+                </span>
+                Каталог товаров
+                <span class="trigger__arrow">
+                    <object class="trigger__arrow-icon" data="img/svg/arrow_down.svg" type="image/svg+xml"></object>
+                </span>
+            </button>
+            <ul class="hidden_mobile header-third__nav">
+                <li class="header-third__nav-list-item">
+                    <a href="#" class="header-third__nav-list-link">Бренды</a>
+                </li>
+                <li class="header-third__nav-list-item">
+                    <a href="#" class="header-third__nav-list-link">Распродажа</a>
+                </li>
+                <li class="header-third__nav-list-item">
+                    <a href="#" class="header-third__nav-list-link">Акции</a>
+                </li>
+                <li class="header-third__nav-list-item">
+                    <a href="#" class="header-third__nav-list-link">Уценка</a>
+                </li>
+            </ul>
+            <ul class="mobile-header-nav">
+                <li class="mobile-header-nav__item">
+                    <a href="#" class="mobile-header-nav__link">Бренды</a>
+                </li>
+                <li class="mobile-header-nav__item">
+                    <a href="#" class="mobile-header-nav__link">Распродажа</a>
+                </li>
+                <li class="mobile-header-nav__item">
+                    <a href="#" class="mobile-header-nav__link">Уценка</a>
+                </li>
+                <li class="mobile-header-nav__item">
+                    <a href="#" class="mobile-header-nav__link">Акции</a>
+                </li>
+                <li class="mobile-header-nav__item">
+                    <a href="#" class="mobile-header-nav__link nested-contains">Мебель для ванной</a>
+                    <ul class="mobile-header-nav__nested-list">
+                        <li class="mobile-header-nav__nested-list-item">
+                            <a href="#" class="mobile-header-nav__link">Вложенная мебель 1</a>
+                        </li>
+                        <li class="mobile-header-nav__nested-list-item">
+                            <a href="#" class="mobile-header-nav__link">Вложенная мебель ...</a>
+                        </li>
+                        <li class="mobile-header-nav__nested-list-item">
+                            <a href="#" class="mobile-header-nav__link">Вложенная мебель N</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="mobile-header-nav__item">
+                    <a href="#" class="mobile-header-nav__link nested-contains">Душевые кабины и боксы</a>
+                    <ul class="mobile-header-nav__nested-list">
+                        <li class="mobile-header-nav__nested-list-item">
+                            <a href="#" class="mobile-header-nav__link">Боксы 1</a>
+                        </li>
+                        <li class="mobile-header-nav__nested-list-item">
+                            <a href="#" class="mobile-header-nav__link">Боксы ...</a>
+                        </li>
+                        <li class="mobile-header-nav__nested-list-item">
+                            <a href="#" class="mobile-header-nav__link">Боксы N</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <button class="hidden_mobile header-third__cart-button">
+                <object data="img/svg/cart_blue.svg" type="image/svg+xml"></object>
+                <span class="header-third__cart-label">12</span>
+                <span class="plain-text plain-text_medium text_bold header-third__cart-total-value">24 589 ₽</span>
+            </button>
+        </div>
+    </div>
+    <div class="container container_catalog-drop">
+        <div class="catalog-drop">
+            <div class="flex flex_nowrap catalog-drop__columns-wrapper">
+                <div class="flex flex_column catalog-drop__column">
+                    <div class="flex flex_nowrap catalog-drop__category-wrapper">
+                        <div class="catalog-drop__category-image-wrapper" style="background: #CFF5FF">
+                            <img src="img/product.png" alt="Catalog dropdown category image"
+                                 class="catalog-drop__category-image">
+                        </div>
+                        <ul class="catalog-drop__list">
+                            <li class="catalog-drop__list-item">
+                                <a href="#" class="catalog-drop__list-link catalog-drop__list-link_header">Мебель для ванной
+                                    комнаты</a>
+                            </li>
+                            <li class="catalog-drop__list-item">
+                                <a href="#" class="text_secondary catalog-drop__list-link">Мебель 80-90</a>
+                            </li>
+                            <li class="catalog-drop__list-item">
+                                <a href="#" class="text_secondary catalog-drop__list-link">Мебель 60-70</a>
+                            </li>
+                            <li class="catalog-drop__list-item">
+                                <a href="#" class="text_secondary catalog-drop__list-link">Мебель 40-50</a>
+                            </li>
+                            <li class="catalog-drop__list-item">
+                                <a href="#" class="text_secondary catalog-drop__list-link">Тумбы</a>
+                            </li>
+                            <li class="catalog-drop__list-item">
+                                <a href="#" class="text_secondary catalog-drop__list-link catalog-drop__list-link_expand">
+                                    <span class="catalog-drop__expand-value">Показать всё</span>
+                                    <object class="catalog-drop__expand-icon" data="img/svg/arrow_down-mobile-menu.svg" type="image/svg+xml"></object>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="flex flex_nowrap catalog-drop__category-wrapper">
+                        <div class="catalog-drop__category-image-wrapper" style="background: #ECECEC">
+                            <img src="img/product.png" alt="Catalog dropdown category image"
+                                 class="catalog-drop__category-image">
+                        </div>
+                        <ul class="catalog-drop__list">
+                            <li class="catalog-drop__list-item">
+                                <a href="#" class="catalog-drop__list-link catalog-drop__list-link_header">Смесители</a>
+                            </li>
+                            <li class="catalog-drop__list-item">
+                                <a href="#" class="text_secondary catalog-drop__list-link">Мебель 80-90</a>
+                            </li>
+                            <li class="catalog-drop__list-item">
+                                <a href="#" class="text_secondary catalog-drop__list-link">Мебель 80-90</a>
+                            </li>
+                            <li class="catalog-drop__list-item">
+                                <a href="#" class="text_secondary catalog-drop__list-link catalog-drop__list-link_expand">
+                                    <span class="catalog-drop__expand-value">Свернуть</span>
+                                    <object class="catalog-drop__expand-icon" data="img/svg/arrow_up-mobile-menu.svg" type="image/svg+xml"></object>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="flex flex_nowrap catalog-drop__category-wrapper">
+                        <div class="catalog-drop__category-image-wrapper" style="background: #FEE8D8">
+                            <img src="img/product.png" alt="Catalog dropdown category image"
+                                 class="catalog-drop__category-image">
+                        </div>
+                        <ul class="catalog-drop__list">
+                            <li class="catalog-drop__list-item">
+                                <a href="#" class="catalog-drop__list-link catalog-drop__list-link_header">Комплектующие</a>
+                            </li>
+                            <li class="catalog-drop__list-item">
+                                <a href="#" class="text_secondary catalog-drop__list-link">Мебель 80-90</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="flex flex_column catalog-drop__column">
+                    <div class="flex flex_nowrap catalog-drop__category-wrapper">
+                        <div class="catalog-drop__category-image-wrapper" style="background: #D1EFE8">
+                            <img src="img/product.png" alt="Catalog dropdown category image"
+                                 class="catalog-drop__category-image">
+                        </div>
+                        <ul class="catalog-drop__list">
+                            <li class="catalog-drop__list-item">
+                                <a href="#" class="catalog-drop__list-link catalog-drop__list-link_header">Душевые кабины и боксы</a>
+                            </li>
+                            <li class="catalog-drop__list-item">
+                                <a href="#" class="text_secondary catalog-drop__list-link">Душевые кабины</a>
+                            </li>
+                            <li class="catalog-drop__list-item">
+                                <a href="#" class="text_secondary catalog-drop__list-link">Боксы</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="flex flex_nowrap catalog-drop__category-wrapper">
+                        <div class="catalog-drop__category-image-wrapper" style="background: #FECFCF">
+                            <img src="img/product.png" alt="Catalog dropdown category image"
+                                 class="catalog-drop__category-image">
+                        </div>
+                        <ul class="catalog-drop__list">
+                            <li class="catalog-drop__list-item">
+                                <a href="#" class="catalog-drop__list-link catalog-drop__list-link_header">Унитазы</a>
+                            </li>
+                            <li class="catalog-drop__list-item">
+                                <a href="#" class="text_secondary catalog-drop__list-link">Приставные</a>
+                            </li>
+                            <li class="catalog-drop__list-item">
+                                <a href="#" class="text_secondary catalog-drop__list-link">Компакты</a>
+                            </li>
+                            <li class="catalog-drop__list-item">
+                                <a href="#" class="text_secondary catalog-drop__list-link">Косой выпуск</a>
+                            </li>
+                            <li class="catalog-drop__list-item">
+                                <a href="#" class="text_secondary catalog-drop__list-link">Прямой выпуск</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="flex flex_nowrap catalog-drop__category-wrapper">
+                        <div class="catalog-drop__category-image-wrapper" style="background: #EEEAE8">
+                            <img src="img/product.png" alt="Catalog dropdown category image"
+                                 class="catalog-drop__category-image">
+                        </div>
+                        <ul class="catalog-drop__list">
+                            <li class="catalog-drop__list-item">
+                                <a href="#" class="catalog-drop__list-link catalog-drop__list-link_header">Трапы, душевые лотки</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="flex flex_nowrap catalog-drop__category-wrapper">
+                        <div class="catalog-drop__category-image-wrapper" style="background: #DEF7F5">
+                            <img src="img/product.png" alt="Catalog dropdown category image"
+                                 class="catalog-drop__category-image">
+                        </div>
+                        <ul class="catalog-drop__list">
+                            <li class="catalog-drop__list-item">
+                                <a href="#" class="catalog-drop__list-link catalog-drop__list-link_header">Кухонные мойки</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="flex flex_nowrap catalog-drop__category-wrapper">
+                        <div class="catalog-drop__category-image-wrapper" style="background: #F3F3CE">
+                            <img src="img/product.png" alt="Catalog dropdown category image"
+                                 class="catalog-drop__category-image">
+                        </div>
+                        <ul class="catalog-drop__list">
+                            <li class="catalog-drop__list-item">
+                                <a href="#" class="catalog-drop__list-link catalog-drop__list-link_header">Сифоны</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="flex flex_column catalog-drop__column">
+                    <div class="flex flex_nowrap catalog-drop__category-wrapper">
+                        <div class="catalog-drop__category-image-wrapper" style="background: #D1F0C2">
+                            <img src="img/product.png" alt="Catalog dropdown category image"
+                                 class="catalog-drop__category-image">
+                        </div>
+                        <ul class="catalog-drop__list">
+                            <li class="catalog-drop__list-item">
+                                <a href="#" class="catalog-drop__list-link catalog-drop__list-link_header">Душевые ограждения, поддон</a>
+                            </li>
+                            <li class="catalog-drop__list-item">
+                                <a href="#" class="text_secondary catalog-drop__list-link">Мебель 80см</a>
+                            </li>
+                            <li class="catalog-drop__list-item">
+                                <a href="#" class="text_secondary catalog-drop__list-link">Мебель 90см</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="flex flex_nowrap catalog-drop__category-wrapper">
+                        <div class="catalog-drop__category-image-wrapper" style="background: #FDE1F4">
+                            <img src="img/product.png" alt="Catalog dropdown category image"
+                                 class="catalog-drop__category-image">
+                        </div>
+                        <ul class="catalog-drop__list">
+                            <li class="catalog-drop__list-item">
+                                <a href="#" class="catalog-drop__list-link catalog-drop__list-link_header">Ванны</a>
+                            </li>
+                            <li class="catalog-drop__list-item">
+                                <a href="#" class="text_secondary catalog-drop__list-link">Акрил</a>
+                            </li>
+                            <li class="catalog-drop__list-item">
+                                <a href="#" class="text_secondary catalog-drop__list-link">Чугун</a>
+                            </li>
+                            <li class="catalog-drop__list-item">
+                                <a href="#" class="text_secondary catalog-drop__list-link">Мрамор</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="flex flex_nowrap catalog-drop__category-wrapper">
+                        <div class="catalog-drop__category-image-wrapper" style="background: #C7F1FF">
+                            <img src="img/product.png" alt="Catalog dropdown category image"
+                                 class="catalog-drop__category-image">
+                        </div>
+                        <ul class="catalog-drop__list">
+                            <li class="catalog-drop__list-item">
+                                <a href="#" class="catalog-drop__list-link catalog-drop__list-link_header">Инсталяции</a>
+                            </li>
+                            <li class="catalog-drop__list-item">
+                                <a href="#" class="text_secondary catalog-drop__list-link">Для унитазов</a>
+                            </li>
+                            <li class="catalog-drop__list-item">
+                                <a href="#" class="text_secondary catalog-drop__list-link">Для биде</a>
+                            </li>
+                            <li class="catalog-drop__list-item">
+                                <a href="#" class="text_secondary catalog-drop__list-link">Кнопки смыва</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="flex flex_column catalog-drop__column">
+                    <div class="flex flex_nowrap catalog-drop__category-wrapper">
+                        <div class="catalog-drop__category-image-wrapper" style="background: #AFD9FF">
+                            <img src="img/product.png" alt="Catalog dropdown category image"
+                                 class="catalog-drop__category-image">
+                        </div>
+                        <ul class="catalog-drop__list">
+                            <li class="catalog-drop__list-item">
+                                <a href="#" class="catalog-drop__list-link catalog-drop__list-link_header">Раковины</a>
+                            </li>
+                            <li class="catalog-drop__list-item">
+                                <a href="#" class="text_secondary catalog-drop__list-link">Встраиваемые сверху</a>
+                            </li>
+                            <li class="catalog-drop__list-item">
+                                <a href="#" class="text_secondary catalog-drop__list-link">Встраиваемые снизу</a>
+                            </li>
+                            <li class="catalog-drop__list-item">
+                                <a href="#" class="text_secondary catalog-drop__list-link">Рукомойники</a>
+                            </li>
+                            <li class="catalog-drop__list-item">
+                                <a href="#" class="text_secondary catalog-drop__list-link">Накладные</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="flex flex_nowrap catalog-drop__category-wrapper">
+                        <div class="catalog-drop__category-image-wrapper" style="background: #BFFFDC">
+                            <img src="img/product.png" alt="Catalog dropdown category image"
+                                 class="catalog-drop__category-image">
+                        </div>
+                        <ul class="catalog-drop__list">
+                            <li class="catalog-drop__list-item">
+                                <a href="#" class="catalog-drop__list-link catalog-drop__list-link_header">Писсуары</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="flex flex_nowrap catalog-drop__category-wrapper">
+                        <div class="catalog-drop__category-image-wrapper" style="background: #CFEBFF">
+                            <img src="img/product.png" alt="Catalog dropdown category image"
+                                 class="catalog-drop__category-image">
+                        </div>
+                        <ul class="catalog-drop__list">
+                            <li class="catalog-drop__list-item">
+                                <a href="#" class="catalog-drop__list-link catalog-drop__list-link_header">Полотенцесушители</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="flex flex_nowrap catalog-drop__category-wrapper">
+                        <div class="catalog-drop__category-image-wrapper" style="background: #FEEAF1">
+                            <img src="img/product.png" alt="Catalog dropdown category image"
+                                 class="catalog-drop__category-image">
+                        </div>
+                        <ul class="catalog-drop__list">
+                            <li class="catalog-drop__list-item">
+                                <a href="#" class="catalog-drop__list-link catalog-drop__list-link_header">Аксессуары</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<header class="header_scrolled hidden-top">
+    <div class="container">
+        <div class="flex items_center sh">
+            <div class="flex items_center sh_left">
+                <a href="/" class="sh__logo-link">
+                    <object class="sh__logo-icon" data="img/svg/logo.svg" type="image/svg+xml"></object>
+                </a>
+                <button class="sh__catalog-button">Каталог товаров</button>
+                <form class="sh__search-form">
+                    <input placeholder="Поиск" type="text" class="sh__search-input">
+                    <button class="sh__search-button">
+                        <object class="sh__logo-icon" data="img/svg/search.svg" type="image/svg+xml"></object>
+                    </button>
+                </form>
+            </div>
+            <div class="flex items_center sh_right">
+                <ul class="sh__list">
+                    <li class="sh__list-item">
+                        <button class="flex flex_column items_center sh__list-button">
+                            <span class="sh__list-button-label">5</span>
+                            <object class="sh__list-button-icon" data="img/svg/compare.svg"
+                                    type="image/svg+xml"></object>
+                            Сравнение
+                        </button>
+                    </li>
+                    <li class="sh__list-item">
+                        <button class="flex flex_column items_center sh__list-button">
+                            <object class="sh__list-button-icon" data="img/svg/favorite.svg"
+                                    type="image/svg+xml"></object>
+                            Избранное
+                        </button>
+                    </li>
+                    <li class="sh__list-item">
+                        <button class="flex flex_column items_center sh__list-button">
+                            <object class="sh__list-button-icon" data="img/svg/user.svg" type="image/svg+xml"></object>
+                            Войти
+                        </button>
+                    </li>
+                    <li class="sh__list-item">
+                        <button class="flex items_center sh_cart-button">
+                            <object data="img/svg/cart_blue.svg" type="image/svg+xml"></object>
+                            <span class="sh_cart-label">12</span>
+                            <span class="plain-text plain-text_small sh_cart-value"><b>24 589 руб.</b></span>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+    <main>
+        <section class="section favorites-section">
+            <div class="container">
+                <div class="flex flex_nowrap breadcrumbs__wrapper">
+                    <ul class="breadcrumbs">
+                        <li class="breadcrumbs__item">
+                            <a href="#">Главная</a>
+                        </li>
+                        <li class="text_secondary breadcrumbs__item">Каталог</li>
+                        <li class="text_secondary breadcrumbs__item">Any other link</li>
+                        <li class="text_secondary breadcrumbs__item">Any other link</li>
+                        <li class="text_secondary breadcrumbs__item">Any other link</li>
+                    </ul>
+                </div>
+                <div class="page-header__wrapper">
+                    <h1 class="page-title">
+                        Контакты
+                    </h1>
+                </div>
+                <div class="flex flex_column contacts__wrapper">
+                    <div class="contacts__contacts-wrapper">
+                        <ul class="contacts__list">
+                            <li class="flex contacts__list-item">
+                                <object class="contacts__list-icon" data="img/svg/phone.svg"
+                                    type="image/svg+xml"></object>
+                                <a href="tel: 84951200773" class="text_bold contacts__list-link">+7 (495) 120 07 73</a>
+                                <span class="plain-text plain-text_small contacts__list-description">Для звонков по
+                                    Москве и Московской области</span>
+                            </li>
+                            <li class="flex contacts__list-item">
+                                <object class="contacts__list-icon" data="img/svg/phone.svg"
+                                    type="image/svg+xml"></object>
+                                <a href="tel: 88005008961" class="text_bold contacts__list-link">8 (800) 500 89 61</a>
+                                <span class="plain-text plain-text_small contacts__list-description">звонок бесплатный
+                                    для бесплатных звонков из регионов России</span>
+                            </li>
+                            <li class="flex contacts__list-item">
+                                <object class="contacts__list-icon" data="img/svg/email.svg"
+                                    type="image/svg+xml"></object>
+                                <a href="mailto: info@santehnika-shop.su "
+                                    class="contacts__list-link contacts__list-link_email">info@santehnika-shop.su </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="flex map__wrapper">
+                        <div class="map">
+                            <div style="position:relative;overflow:hidden;width: 100%;height:100%"><a
+                                    href="https://yandex.ru/maps/213/moscow/?utm_medium=mapframe&utm_source=maps"
+                                    style="color:#eee;font-size:12px;position:absolute;top:0px;">Москва</a><a
+                                    href="https://yandex.ru/maps/213/moscow/?ll=37.635567%2C55.744125&utm_medium=mapframe&utm_source=maps&z=13.2"
+                                    style="color:#eee;font-size:12px;position:absolute;top:14px;">Яндекс.Карты —
+                                    транспорт,
+                                    навигация, поиск мест</a>
+                                <iframe src="https://yandex.ru/map-widget/v1/-/CCUaZSa11C" width="100%" height="100%"
+                                    frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>
+                            </div>
+                        </div>
+                        <div class="flex flex_column map-list__wrapper">
+                            <div class="map-list__card">
+                                <div class="flex flex_column map-card__info-block">
+                                    <span
+                                        class="plain-text plain-text_small text_secondary map-card__info-block-title">Магазин:</span>
+                                    <span
+                                        class="plain-text plain-text_small text_bold map-card__info-block-value">Торговый
+                                        центр Город</span>
+                                    <span class="flex plain-text plain-text_small map-card__info-block-contact">
+                                        <object class="map-card__info-block-icon" data="img/svg/phone.svg"
+                                            type="image/svg+xml"></object>
+                                        <a href="tel: 84951200774" class="map-card__info-block-link">+7 (495)
+                                            120-0774</a>
+                                        доб. 1
+                                    </span>
+                                </div>
+                                <div class="flex flex_column map-card__info-block">
+                                    <span
+                                        class="plain-text plain-text_small text_secondary map-card__info-block-title">Время
+                                        работы:</span>
+                                    <span
+                                        class="plain-text plain-text_small text_bold map-card__info-block-value">Ежедневно,
+                                        ежечасно, ежесекундно</span>
+                                    <span class="flex plain-text plain-text_small map-card__info-block-contact">
+                                        <object class="map-card__info-block-icon" data="img/svg/pin.svg"
+                                            type="image/svg+xml"></object>
+                                        г.Москва, ш. Энтузиастов, 12, корп. 2
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="map-list__card">
+                                <div class="flex flex_column map-card__info-block">
+                                    <span
+                                        class="plain-text plain-text_small text_secondary map-card__info-block-title">Магазин:</span>
+                                    <span
+                                        class="plain-text plain-text_small text_bold map-card__info-block-value">Торговый
+                                        центр Город</span>
+                                    <span class="flex plain-text plain-text_small map-card__info-block-contact">
+                                        <object class="map-card__info-block-icon" data="img/svg/phone.svg"
+                                            type="image/svg+xml"></object>
+                                        <a href="tel: 84951200774" class="map-card__info-block-link">+7 (495)
+                                            120-0774</a>
+                                        доб. 1
+                                    </span>
+                                </div>
+                                <div class="flex flex_column map-card__info-block">
+                                    <span
+                                        class="plain-text plain-text_small text_secondary map-card__info-block-title">Время
+                                        работы:</span>
+                                    <span
+                                        class="plain-text plain-text_small text_bold map-card__info-block-value">Ежедневно,
+                                        ежечасно, ежесекундно</span>
+                                    <span class="flex plain-text plain-text_small map-card__info-block-contact">
+                                        <object class="map-card__info-block-icon" data="img/svg/pin.svg"
+                                            type="image/svg+xml"></object>
+                                        г.Москва, ш. Энтузиастов, 12, корп. 2
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="map-list__card">
+                                <div class="flex flex_column map-card__info-block">
+                                    <span
+                                        class="plain-text plain-text_small text_secondary map-card__info-block-title">Магазин:</span>
+                                    <span
+                                        class="plain-text plain-text_small text_bold map-card__info-block-value">Торговый
+                                        центр Город</span>
+                                    <span class="flex plain-text plain-text_small map-card__info-block-contact">
+                                        <object class="map-card__info-block-icon" data="img/svg/phone.svg"
+                                            type="image/svg+xml"></object>
+                                        <a href="tel: 84951200774" class="map-card__info-block-link">+7 (495)
+                                            120-0774</a>
+                                        доб. 1
+                                    </span>
+                                </div>
+                                <div class="flex flex_column map-card__info-block">
+                                    <span
+                                        class="plain-text plain-text_small text_secondary map-card__info-block-title">Время
+                                        работы:</span>
+                                    <span
+                                        class="plain-text plain-text_small text_bold map-card__info-block-value">Ежедневно,
+                                        ежечасно, ежесекундно</span>
+                                    <span class="flex plain-text plain-text_small map-card__info-block-contact">
+                                        <object class="map-card__info-block-icon" data="img/svg/pin.svg"
+                                            type="image/svg+xml"></object>
+                                        г.Москва, ш. Энтузиастов, 12, корп. 2
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="map-list__card">
+                                <div class="flex flex_column map-card__info-block">
+                                    <span
+                                        class="plain-text plain-text_small text_secondary map-card__info-block-title">Магазин:</span>
+                                    <span
+                                        class="plain-text plain-text_small text_bold map-card__info-block-value">Торговый
+                                        центр Город</span>
+                                    <span class="flex plain-text plain-text_small map-card__info-block-contact">
+                                        <object class="map-card__info-block-icon" data="img/svg/phone.svg"
+                                            type="image/svg+xml"></object>
+                                        <a href="tel: 84951200774" class="map-card__info-block-link">+7 (495)
+                                            120-0774</a>
+                                        доб. 1
+                                    </span>
+                                </div>
+                                <div class="flex flex_column map-card__info-block">
+                                    <span
+                                        class="plain-text plain-text_small text_secondary map-card__info-block-title">Время
+                                        работы:</span>
+                                    <span
+                                        class="plain-text plain-text_small text_bold map-card__info-block-value">Ежедневно,
+                                        ежечасно, ежесекундно</span>
+                                    <span class="flex plain-text plain-text_small map-card__info-block-contact">
+                                        <object class="map-card__info-block-icon" data="img/svg/pin.svg"
+                                            type="image/svg+xml"></object>
+                                        г.Москва, ш. Энтузиастов, 12, корп. 2
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="map-list__card">
+                                <div class="flex flex_column map-card__info-block">
+                                    <span
+                                        class="plain-text plain-text_small text_secondary map-card__info-block-title">Магазин:</span>
+                                    <span
+                                        class="plain-text plain-text_small text_bold map-card__info-block-value">Торговый
+                                        центр Город</span>
+                                    <span class="flex plain-text plain-text_small map-card__info-block-contact">
+                                        <object class="map-card__info-block-icon" data="img/svg/phone.svg"
+                                            type="image/svg+xml"></object>
+                                        <a href="tel: 84951200774" class="map-card__info-block-link">+7 (495)
+                                            120-0774</a>
+                                        доб. 1
+                                    </span>
+                                </div>
+                                <div class="flex flex_column map-card__info-block">
+                                    <span
+                                        class="plain-text plain-text_small text_secondary map-card__info-block-title">Время
+                                        работы:</span>
+                                    <span
+                                        class="plain-text plain-text_small text_bold map-card__info-block-value">Ежедневно,
+                                        ежечасно, ежесекундно</span>
+                                    <span class="flex plain-text plain-text_small map-card__info-block-contact">
+                                        <object class="map-card__info-block-icon" data="img/svg/pin.svg"
+                                            type="image/svg+xml"></object>
+                                        г.Москва, ш. Энтузиастов, 12, корп. 2
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="map-list__card">
+                                <div class="flex flex_column map-card__info-block">
+                                    <span
+                                        class="plain-text plain-text_small text_secondary map-card__info-block-title">Магазин:</span>
+                                    <span
+                                        class="plain-text plain-text_small text_bold map-card__info-block-value">Торговый
+                                        центр Город</span>
+                                    <span class="flex plain-text plain-text_small map-card__info-block-contact">
+                                        <object class="map-card__info-block-icon" data="img/svg/phone.svg"
+                                            type="image/svg+xml"></object>
+                                        <a href="tel: 84951200774" class="map-card__info-block-link">+7 (495)
+                                            120-0774</a>
+                                        доб. 1
+                                    </span>
+                                </div>
+                                <div class="flex flex_column map-card__info-block">
+                                    <span
+                                        class="plain-text plain-text_small text_secondary map-card__info-block-title">Время
+                                        работы:</span>
+                                    <span
+                                        class="plain-text plain-text_small text_bold map-card__info-block-value">Ежедневно,
+                                        ежечасно, ежесекундно</span>
+                                    <span class="flex plain-text plain-text_small map-card__info-block-contact">
+                                        <object class="map-card__info-block-icon" data="img/svg/pin.svg"
+                                            type="image/svg+xml"></object>
+                                        г.Москва, ш. Энтузиастов, 12, корп. 2
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex.flex_column form__wrapper">
+                    <h3 class="title title_medium form__title">Написать руководству</h3>
+                    <p class="plain-text plain-text_medium form__text">Каждый из нас понимает очевидную вещь: курс на
+                        социально-ориентированный национальный проект не оставляет шанса для дальнейших направлений
+                        развития. Безусловно, новая модель организационной деятельности обеспечивает широкому кругу
+                        (специалистов) участие в формировании поставленных обществом задач. Прежде всего, граница
+                        обучения кадров обеспечивает актуальность экспериментов, поражающих по своей масштабности и
+                        грандиозности. Ясность нашей позиции очевидна: укрепление и развитие</p>
+                    <form class="flex justify_between form form_contact">
+                        <input placeholder="Ваше имя" type="text" class="input">
+                        <input placeholder="Ваш телефон" type="tel" id="phone-input" class="input">
+                        <input placeholder="Ваш e-mail" type="email" class="input">
+                        <input placeholder="Сообщение" type="email" class="input input_textarea">
+                        <div class="flex align_items justify_between form__footer">
+                            <label class="checkbox-container agree-text">
+                                Нажимая «Отправить», вы соглашаетесь с условиями Пользовательского соглашения.
+                                <input type="checkbox" checked>
+                                <span class="checkmark"></span>
+                            </label>
+                            <button class="button button_primary form-button">Отправить</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+    <div class="container">
+        <div class="flex footer">
+            <div class="footer__lists-wrapper">
+                <ul class="footer__list">
+                    <li class="footer__list-item footer__list-item_header">
+                        <a href="#" class="footer__list-link text_bold">Каталог</a>
+                    </li>
+                    <li class="footer__list-item footer__list-item_header">
+                        <a href="#" class="footer__list-link text_bold">Магазины</a>
+                    </li>
+                    <li class="footer__list-item footer__list-item_header">
+                        <a href="#" class="footer__list-link text_bold">Доставка</a>
+                    </li>
+                    <li class="footer__list-item footer__list-item_header">
+                        <a href="#" class="footer__list-link text_bold">Контакты</a>
+                    </li>
+                    <li class="footer__list-item footer__list-item_header">
+                        <a href="#" class="footer__list-link text_bold">Бренды</a>
+                    </li>
+                </ul>
+                <ul class="footer__list">
+                    <li class="footer__list-item footer__list-item_header">
+                        <a href="#" class="footer__list-link text_bold">Покупателям</a>
+                    </li>
+                    <li class="footer__list-item">
+                        <a href="#" class="footer__list-link">Оплата</a>
+                    </li>
+                    <li class="footer__list-item">
+                        <a href="#" class="footer__list-link">Получение и возврат</a>
+                    </li>
+                    <li class="footer__list-item">
+                        <a href="#" class="footer__list-link">Самовывоз</a>
+                    </li>
+                    <li class="footer__list-item">
+                        <a href="#" class="footer__list-link">Пользовательское соглашение</a>
+                    </li>
+                </ul>
+                <ul class="footer__list">
+                    <li class="footer__list-item footer__list-item_header">
+                        <a href="#" class="footer__list-link text_bold">Популярное</a>
+                    </li>
+                    <li class="footer__list-item">
+                        <a href="#" class="footer__list-link">Акции</a>
+                    </li>
+                    <li class="footer__list-item">
+                        <a href="#" class="footer__list-link">Распродажа</a>
+                    </li>
+                    <li class="footer__list-item">
+                        <a href="#" class="footer__list-link">Хит продаж</a>
+                    </li>
+                    <li class="footer__list-item">
+                        <a href="#" class="footer__list-link">Новинки</a>
+                    </li>
+                    <li class="footer__list-item">
+                        <a href="#" class="footer__list-link">Рекомендуют мастера</a>
+                    </li>
+                </ul>
+                <ul class="footer__list">
+                    <li class="footer__list-item footer__list-item_header">
+                        <a href="#" class="footer__list-link text_bold">Популярное</a>
+                    </li>
+                    <li class="footer__list-item">
+                        <a href="#" class="footer__list-link">Советы по выбору ванны: всё об акриловых, стальных и чугунных ваннах</a>
+                    </li>
+                    <li class="footer__list-item">
+                        <a href="#" class="footer__list-link">Как выбрать душевую кабину</a>
+                    </li>
+                    <li class="footer__list-item">
+                        <a href="#" class="footer__list-link">Как выбрать раковину</a>
+                    </li>
+                    <li class="footer__list-item">
+                        <a href="#" class="footer__list-link">Как выбрать унитаз</a>
+                    </li>
+                    <li class="footer__list-item">
+                        <a href="#" class="footer__list-link">Как выбрать смеситель</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="flex flex_column footer__contacts-wrapper">
+                <span class="flex flex_nowrap items_center footer__contact-item">
+                    <object class="footer__contact-item-icon" data="img/svg/phone_gray.svg" type="image/svg+xml"></object>
+                    <a href="tel: 84951200773" class="footer__contact-item-link text_bold">+7 4951200773</a>
+                </span>
+                <span class="flex flex_nowrap items_center footer__contact-item">
+                    <object class="footer__contact-item-icon" data="img/svg/email_gray.svg" type="image/svg+xml"></object>
+                    <a href="mailto: info@santehnika-shop.su" class="footer__contact-item-link">info@santehnika-shop.su3</a>
+                </span>
+                <span class="flex flex_nowrap items_center footer__contact-item">
+                    <object class="footer__contact-item-icon" data="img/svg/pin_gray.svg" type="image/svg+xml"></object>
+                    <a class="footer__contact-item-link">г.Москва, Шоссе Энтузиастов, д.12, к.2, ТК "Город", 3 этаж, пав. 354</a>
+                </span>
+                <span class="plain-text plain-text_small text_secondary footer__contact-item">
+                    Время работы отдела продаж:<br>
+                    <span class="plain-text plain-text_small">пн-сб 10:00 - 19:00</span>
+                </span>
+            </div>
+            <div class="flex flex_nowrap justify_between items_center footer__social-wrapper">
+                <object class="footer__logo" data="img/svg/logo_footer.svg" type="image/svg+xml"></object>
+                <ul class="flex footer__social-list">
+                    <li class="footer__social-list-item">
+                        <a href="#" class="footer__social-list-link">
+                            <object class="footer__social-list-icon" data="img/svg/vk.svg" type="image/svg+xml"></object>
+                        </a>
+                    </li>
+                    <li class="footer__social-list-item">
+                        <a href="#" class="footer__social-list-link">
+                            <object class="footer__social-list-icon" data="img/svg/instagram.svg" type="image/svg+xml"></object>
+                        </a>
+                    </li>
+                    <li class="footer__social-list-item">
+                        <a href="#" class="footer__social-list-link">
+                            <object class="footer__social-list-icon" data="img/svg/facebook.svg" type="image/svg+xml"></object>
+                        </a>
+                    </li>
+                    <li class="footer__social-list-item">
+                        <a href="#" class="footer__social-list-link">
+                            <object class="footer__social-list-icon" data="img/svg/youtube.svg" type="image/svg+xml"></object>
+                        </a>
+                    </li>
+                    <li class="footer__social-list-item">
+                        <a href="#" class="footer__social-list-link">
+                            <object class="footer__social-list-icon" data="img/svg/ok.svg" type="image/svg+xml"></object>
+                        </a>
+                    </li>
+                </ul>
+                <a href="#" class="footer__market-link">
+                    <object data="img/svg/ym.png" type="image/png"></object>
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
+<div class="flex footer__copy">
+    <div class="container">
+        <div class="flex justify_between items_center">
+            <span class="plain-text plain-text_small">© 2017 Santehnika-shop.su Все права защищены.</span>
+            <a href="#" class="plain-text plain-text_small">Разработка: Digital-агентство WebReforma.ru</a>
+        </div>
+    </div>
+</div>
+
+    <script src="/js/index.js"></script>
+    <script src="/js/contacts.js"></script>
+</body>
+
+</html>
