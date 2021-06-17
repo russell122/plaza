@@ -249,6 +249,7 @@ mobileCatalogLinks.forEach(function (link) {
 /***/ (function(module, exports) {
 
 var productCards = document.querySelectorAll('.product-card');
+var buttonToBasket = document.querySelectorAll('.button_to-basket');
 
 if (productCards.length) {
   productCards.forEach(function (item) {
@@ -264,6 +265,20 @@ if (productCards.length) {
           e.target.classList.add('added');
           e.target.querySelector('object').setAttribute('data', source.replace('.svg', '_added.svg'));
           initTooltip(buttonWrapper);
+        }
+      }
+    });
+  });
+}
+
+if (productCards.length) {
+  productCards.forEach(function (item, i) {
+    item.addEventListener('click', function (e) {
+      if (e.target.classList.contains('button_to-basket') && !e.target.classList.contains('button_to-basket-null')) {
+        if (e.target.classList.contains('added')) {
+          buttonToBasket[i].innerHTML = 'В корзине';
+        } else {
+          buttonToBasket[i].innerHTML = 'В корзину';
         }
       }
     });

@@ -522,10 +522,14 @@
 }
 
 .advertising-banner2 {
-  background-image: url("/img/marketing-offer.jpg");
+  background-image: url("../img/marketing-offer.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 75px;
+}
+
+.advertising-banner2-grid {
+  grid-area: banner;
 }
 
 .article-card {
@@ -2162,7 +2166,8 @@
 
   .footer__social-wrapper {
     order: 1;
-    width: 300px;
+    width: 210px;
+    align-items: flex-start;
   }
 
   .footer__lists-wrapper {
