@@ -12839,17 +12839,12 @@ var galleryTop = new swiper__WEBPACK_IMPORTED_MODULE_0__["default"]('.gallery-to
   }
 });
 var galleryTopWrapper = document.querySelector('.gallery-top');
-var sliders = galleryTopWrapper.querySelectorAll('.swiper-slide');
-sliders.forEach(function (slider) {
-  slider.addEventListener('mouseenter', function () {
-    return galleryTop.zoom["in"]();
-  });
-});
-sliders.forEach(function (slider) {
-  slider.addEventListener('mouseleave', function () {
-    return galleryTop.zoom.out();
-  });
-});
+var sliders = galleryTopWrapper.querySelectorAll('.swiper-slide'); // sliders.forEach(slider => {
+//     slider.addEventListener('mouseenter', () => galleryTop.zoom.in());
+// });
+// sliders.forEach(slider => {
+//     slider.addEventListener('mouseleave', () => galleryTop.zoom.out());
+// })
 
 /***/ })
 

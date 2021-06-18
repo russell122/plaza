@@ -239,6 +239,96 @@ mobileCatalogLinks.forEach(function (link) {
   link.addEventListener('click', listener, false);
 });
 
+var inpSearch = function inpSearch() {
+  var inputSearch = document.querySelector('.search-form__label');
+  var headerSecondSearchForm = document.querySelector('.header-second__search-form-targ');
+  var block = document.querySelector('.block');
+  var headerThirdWrapper = document.querySelector('.header-third__wrapper');
+
+  function closeSearchBlock() {
+    block.classList.remove('active');
+    blockSm.classList.remove('active');
+  }
+
+  document.addEventListener('click', function (e) {
+    e.preventDefault();
+
+    if (e.target.closest('.header-second__search-form-targ')) {
+      inputSearch.classList.add('active');
+      headerSecondSearchForm.classList.add('active');
+      headerThirdWrapper.classList.add('active');
+    }
+
+    if (!e.target.closest('.header-second__search-form-targ')) {
+      inputSearch.classList.remove('active');
+      headerSecondSearchForm.classList.remove('active');
+      headerThirdWrapper.classList.remove('active');
+      closeSearchBlock();
+    }
+
+    document.addEventListener('keydown', function (e) {
+      if (e.code == 'Escape') {
+        inputSearch.classList.remove('active');
+        headerSecondSearchForm.classList.remove('active');
+        headerThirdWrapper.classList.remove('active');
+        closeSearchBlock();
+      }
+    });
+  });
+};
+
+inpSearch();
+
+var inpSearch2 = function inpSearch2() {
+  var shSearchFormTarg = document.querySelector('.sh__search-form-targ');
+  var blockSh = document.querySelector('.block-sh');
+
+  function closeSearchBlock() {
+    blockSh.classList.remove('active');
+  }
+
+  document.addEventListener('click', function (e) {
+    e.preventDefault();
+
+    if (e.target.closest('.sh__search-form-targ')) {
+      shSearchFormTarg.classList.add('active');
+      blockSh.classList.add('active');
+    }
+
+    if (!e.target.closest('.sh__search-form-targ')) {
+      shSearchFormTarg.classList.remove('active');
+      blockSh.classList.remove('active');
+      closeSearchBlock();
+    }
+
+    document.addEventListener('keydown', function (e) {
+      if (e.code == 'Escape') {
+        inputSearch.classList.remove('active');
+        shSearchFormTarg.classList.remove('active');
+        blockSh.classList.remove('active');
+        closeSearchBlock();
+      }
+    });
+  });
+};
+
+inpSearch2();
+var searchButton = document.querySelector('.search-button');
+var block = document.querySelector('.block');
+var blockSm = document.querySelector('.block-sm');
+var headerThirdWrapperT = document.querySelector('.header-third__wrapper-t');
+var bb = document.querySelector('.bb');
+
+if (searchButton) {
+  searchButton.addEventListener('click', function (e) {
+    block.classList.toggle('active');
+  });
+}
+
+bb.addEventListener('click', function (e) {
+  blockSm.classList.toggle('active');
+});
+
 /***/ }),
 
 /***/ "./src/blocks/modules/product-card/product-card.js":
