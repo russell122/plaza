@@ -1074,6 +1074,11 @@
   margin: 0 21px 0 0;
 }
 
+.video-title__icon-wrapper-my object {
+  position: relative;
+  right: -1px;
+}
+
 .video-reviews-section {
   background: #F5F5F5;
 }
