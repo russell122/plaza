@@ -251,8 +251,7 @@ var inpSearch = function inpSearch() {
   }
 
   document.addEventListener('click', function (e) {
-    e.preventDefault();
-
+    // e.preventDefault();
     if (e.target.closest('.header-second__search-form-targ')) {
       inputSearch.classList.add('active');
       headerSecondSearchForm.classList.add('active');
@@ -288,24 +287,22 @@ var inpSearch2 = function inpSearch2() {
   }
 
   document.addEventListener('click', function (e) {
-    e.preventDefault();
-
+    // e.preventDefault();
     if (e.target.closest('.sh__search-form-targ')) {
-      shSearchFormTarg.classList.add('active');
-      blockSh.classList.add('active');
+      shSearchFormTarg.classList.add('active'); // blockSh.classList.add('active');
     }
 
     if (!e.target.closest('.sh__search-form-targ')) {
-      shSearchFormTarg.classList.remove('active');
-      blockSh.classList.remove('active');
+      shSearchFormTarg.classList.remove('active'); // blockSh.classList.remove('active');
+
       closeSearchBlock();
     }
 
     document.addEventListener('keydown', function (e) {
       if (e.code == 'Escape') {
         inputSearch.classList.remove('active');
-        shSearchFormTarg.classList.remove('active');
-        blockSh.classList.remove('active');
+        shSearchFormTarg.classList.remove('active'); // blockSh.classList.remove('active');
+
         closeSearchBlock();
       }
     });
@@ -317,16 +314,23 @@ var searchButton = document.querySelector('.search-button');
 var block = document.querySelector('.block');
 var blockSm = document.querySelector('.block-sm');
 var headerThirdWrapperT = document.querySelector('.header-third__wrapper-t');
+var shSearchButton = document.querySelector('.sh__search-button');
 var bb = document.querySelector('.bb');
+var blockSh = document.querySelector('.block-sh');
 
 if (searchButton) {
   searchButton.addEventListener('click', function (e) {
+    e.preventDefault();
     block.classList.toggle('active');
   });
 }
 
 bb.addEventListener('click', function (e) {
   blockSm.classList.toggle('active');
+});
+shSearchButton.addEventListener('click', function (e) {
+  e.preventDefault();
+  blockSh.classList.toggle('active');
 });
 
 /***/ }),

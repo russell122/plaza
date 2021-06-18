@@ -794,6 +794,7 @@
   text-transform: uppercase;
   border: 1px solid #000;
   width: 60px;
+  flex-shrink: 0;
 }
 
 .back2Top {
@@ -2376,6 +2377,10 @@
 }
 
 @media screen and (max-width: 767px) {
+  .header-second__wrapper {
+    margin-bottom: 7px;
+  }
+
   .block.active .block__category {
     background: #F4F4F4;
     padding: 15px;
