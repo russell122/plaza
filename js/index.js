@@ -266,7 +266,7 @@ var inpSearch = function inpSearch() {
     }
 
     document.addEventListener('keydown', function (e) {
-      if (e.code == 'Escape') {
+      if (e.code == 'Escape' && inputSearch && headerSecondSearchForm && headerThirdWrapper) {
         inputSearch.classList.remove('active');
         headerSecondSearchForm.classList.remove('active');
         headerThirdWrapper.classList.remove('active');
@@ -299,7 +299,7 @@ var inpSearch2 = function inpSearch2() {
     }
 
     document.addEventListener('keydown', function (e) {
-      if (e.code == 'Escape') {
+      if (e.code == 'Escape' && inputSearch && shSearchFormTarg) {
         inputSearch.classList.remove('active');
         shSearchFormTarg.classList.remove('active'); // blockSh.classList.remove('active');
 
@@ -325,13 +325,18 @@ if (searchButton) {
   });
 }
 
-bb.addEventListener('click', function (e) {
-  blockSm.classList.toggle('active');
-});
-shSearchButton.addEventListener('click', function (e) {
-  e.preventDefault();
-  blockSh.classList.toggle('active');
-});
+if (bb) {
+  bb.addEventListener('click', function (e) {
+    blockSm.classList.toggle('active');
+  });
+}
+
+if (shSearchButton) {
+  shSearchButton.addEventListener('click', function (e) {
+    e.preventDefault();
+    blockSh.classList.toggle('active');
+  });
+}
 
 /***/ }),
 

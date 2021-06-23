@@ -126,6 +126,16 @@ function switchTab(tab) {
   }
 }
 
+var coocie = document.querySelector('.coocie');
+var coocieTarg = document.querySelector('.coocieTarg');
+
+if (coocie) {
+  coocieTarg.addEventListener('click', function (e) {
+    e.preventDefault();
+    coocie.classList.add('active');
+  });
+}
+
 /***/ })
 
 /******/ });

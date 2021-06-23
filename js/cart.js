@@ -12814,6 +12814,15 @@ clearCartButton.addEventListener('click', function () {
   var itemsWrapper = document.querySelector('.items-wrapper');
   itemsWrapper.innerHTML = '';
 });
+var coocie = document.querySelector('.coocie');
+var coocieTarg = document.querySelector('.coocieTarg');
+
+if (coocie) {
+  coocieTarg.addEventListener('click', function (e) {
+    e.preventDefault();
+    coocie.classList.add('active');
+  });
+}
 
 /***/ })
 
