@@ -12770,19 +12770,19 @@ function initSlider(slider, next, prev) {
       break;
 
     case 'tablet':
-      slides = 2;
+      slides = 1;
       break;
 
     case 'small_desktop':
-      slides = 3;
+      slides = 2;
       break;
 
     case 'desktop':
-      slides = 4;
+      slides = 2;
       break;
 
     case 'big_desktop':
-      slides = 4;
+      slides = 3;
       break;
 
     case 'huge_desktop':
