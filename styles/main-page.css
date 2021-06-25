@@ -668,7 +668,7 @@
 
 .article-card__image {
   width: 100%;
-  height: auto;
+  height: 100%;
   transition: all .3s ease-in-out;
 }
 
@@ -1138,7 +1138,7 @@
 }
 
 .video-review-card__image {
-  height: auto;
+  height: 100%;
   width: 100%;
 }
 
@@ -2424,6 +2424,21 @@
   }
 }
 
+@media screen and (max-width: 1200px) {
+  .article-card {
+    flex-flow: column nowrap;
+    width: calc(50% - 12px);
+  }
+
+  .article-card__image-wrapper {
+    width: 100%;
+  }
+
+  .article-card__info-wrapper {
+    width: 100%;
+  }
+}
+
 @media screen and (max-width: 1100px) {
   .header-second__search-form.active {
     width: 51%;
@@ -2527,6 +2542,14 @@
 @media screen and (max-width: 576px) {
   .advertising-banner2 {
     padding: 75px 20px;
+  }
+
+  .articles__wrapper {
+    flex-direction: column;
+  }
+
+  .article-card {
+    width: 100%;
   }
 }
 /*# sourceMappingURL=maps/main-page.css.map */

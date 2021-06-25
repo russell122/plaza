@@ -144,6 +144,25 @@ document.addEventListener('DOMContentLoaded', function () {
 
 /***/ }),
 
+/***/ "./src/blocks/modules/coocie/coocie.js":
+/*!*********************************************!*\
+  !*** ./src/blocks/modules/coocie/coocie.js ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+var coocie = document.querySelector('.coocie');
+var coocieTarg = document.querySelector('.coocieTarg');
+
+if (coocie) {
+  coocieTarg.addEventListener('click', function (e) {
+    e.preventDefault();
+    coocie.classList.add('active');
+  });
+}
+
+/***/ }),
+
 /***/ "./src/blocks/modules/header/header.js":
 /*!*********************************************!*\
   !*** ./src/blocks/modules/header/header.js ***!
@@ -413,6 +432,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _blocks_modules_product_card_product_card__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_blocks_modules_product_card_product_card__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _blocks_modules_back2Top_back2Top__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../blocks/modules/back2Top/back2Top */ "./src/blocks/modules/back2Top/back2Top.js");
 /* harmony import */ var _blocks_modules_back2Top_back2Top__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_blocks_modules_back2Top_back2Top__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _blocks_modules_coocie_coocie__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../blocks/modules/coocie/coocie */ "./src/blocks/modules/coocie/coocie.js");
+/* harmony import */ var _blocks_modules_coocie_coocie__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_blocks_modules_coocie_coocie__WEBPACK_IMPORTED_MODULE_3__);
+
 
 
 

@@ -1066,7 +1066,7 @@ ul {
 
 .article-card__image {
   width: 100%;
-  height: auto;
+  height: 100%;
   transition: all .3s ease-in-out;
 }
 
@@ -2254,7 +2254,7 @@ object {
 
 .article-card__image {
   width: 100%;
-  height: auto;
+  height: 100%;
   transition: all .3s ease-in-out;
 }
 

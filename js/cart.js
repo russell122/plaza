@@ -12736,7 +12736,7 @@ function initSlider() {
       break;
 
     case 'desktop':
-      slides = 4;
+      slides = 3;
       break;
 
     case 'big_desktop':

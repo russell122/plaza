@@ -1066,7 +1066,7 @@ ul {
 
 .article-card__image {
   width: 100%;
-  height: auto;
+  height: 100%;
   transition: all .3s ease-in-out;
 }
 
@@ -2462,6 +2462,12 @@ details summary::-webkit-details-marker {
 
 .comparison-item__price {
   margin: 0 12px 0 0;
+}
+
+.coocie.active {
+  opacity: 0;
+  visibility: hidden;
+  transition: all ease .2s;
 }
 
 /* width */
