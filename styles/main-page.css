@@ -1889,6 +1889,10 @@
     width: 42%;
   }
 
+  .sh__list {
+    margin-left: auto;
+  }
+
   .sh__logo-link {
     width: 150px;
     margin: 0 10px 0 0;
