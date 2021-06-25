@@ -1875,7 +1875,8 @@ object {
 /* width */
 
 ::-webkit-scrollbar {
-  width: 10px;
+  height: 8px;
+  width: 8px;
 }
 
 /* Track */
@@ -2295,7 +2296,8 @@ object {
 /* width */
 
 ::-webkit-scrollbar {
-  width: 10px;
+  height: 8px;
+  width: 8px;
 }
 
 /* Track */

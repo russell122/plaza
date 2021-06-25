@@ -1875,7 +1875,8 @@ object {
 /* width */
 
 ::-webkit-scrollbar {
-  width: 10px;
+  height: 8px;
+  width: 8px;
 }
 
 /* Track */
@@ -2548,6 +2549,9 @@ object {
 
 .product-total__wrapper {
   padding: 24px;
+  transition: all .125s ease-in-out;
+  box-shadow: 0 0 28px rgba(0, 0, 0, 0.25);
+  margin-bottom: 15px;
 }
 
 .product-total__counter-wrapper {
@@ -2640,7 +2644,8 @@ object {
 }
 
 .product-set__wrapper {
-  padding: 24px 12px;
+  padding: 24px 32px;
+  box-shadow: 0 0 28px rgba(0, 0, 0, 0.25);
 }
 
 .product-set__total-title {
@@ -2860,7 +2865,8 @@ object {
 /* width */
 
 ::-webkit-scrollbar {
-  width: 10px;
+  height: 8px;
+  width: 8px;
 }
 
 /* Track */

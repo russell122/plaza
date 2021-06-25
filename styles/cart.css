@@ -1875,7 +1875,8 @@ object {
 /* width */
 
 ::-webkit-scrollbar {
-  width: 10px;
+  height: 8px;
+  width: 8px;
 }
 
 /* Track */
@@ -2599,6 +2600,13 @@ details summary::-webkit-details-marker {
 
 .total__wrapper {
   width: 100%;
+  box-shadow: 0 0 28px rgba(0, 0, 0, 0.25);
+  padding: 32px 34px;
+  margin-bottom: 10px;
+}
+
+.total__wrapper object {
+  max-width: 22px;
 }
 
 .total__row {
@@ -2728,7 +2736,8 @@ details summary::-webkit-details-marker {
 /* width */
 
 ::-webkit-scrollbar {
-  width: 10px;
+  height: 8px;
+  width: 8px;
 }
 
 /* Track */

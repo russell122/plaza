@@ -1875,7 +1875,8 @@ object {
 /* width */
 
 ::-webkit-scrollbar {
-  width: 10px;
+  height: 8px;
+  width: 8px;
 }
 
 /* Track */
@@ -2406,7 +2407,8 @@ input:not(:checked) + .switch-value_ru {
 /* width */
 
 ::-webkit-scrollbar {
-  width: 10px;
+  height: 8px;
+  width: 8px;
 }
 
 /* Track */

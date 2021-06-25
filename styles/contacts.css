@@ -1875,7 +1875,8 @@ object {
 /* width */
 
 ::-webkit-scrollbar {
-  width: 10px;
+  height: 8px;
+  width: 8px;
 }
 
 /* Track */
@@ -2357,10 +2358,25 @@ object {
   align-items: center;
 }
 
+.form__footer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.form__footer .form-button {
+  margin: 0;
+}
+
+.contacts__contacts-wrapper {
+  margin-bottom: 15px;
+}
+
 /* width */
 
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 8px;
+  width: 8px;
 }
 
 /* Track */
@@ -3968,7 +3984,7 @@ object {
   }
 
   .map__wrapper {
-    padding: 64px 0;
+    padding: 50px 0;
   }
 
   .map {
@@ -4071,6 +4087,14 @@ object {
 
   .header_scrolled {
     display: none;
+  }
+
+  .agree-text {
+    margin-bottom: 15px;
+  }
+
+  .form-button {
+    width: 50%;
   }
 }
 

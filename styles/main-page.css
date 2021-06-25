@@ -1208,7 +1208,8 @@
 /* width */
 
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 8px;
+  width: 8px;
 }
 
 /* Track */
@@ -2183,7 +2184,7 @@
 
   .video-review__wrapper {
     width: calc(50% - 20px);
-    height: 430px;
+    height: auto;
   }
 
   .video-reviews-control__wrapper {
